@@ -8,7 +8,6 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 
-
 @client.event
 async def on_ready():
     print(f'{client.user} is now online!')
@@ -18,7 +17,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-
+        
     if message.content == "Hi":
         await message.channel.send(f"Ayop")
     
