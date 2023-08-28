@@ -1,5 +1,5 @@
-# discord-py-barebone-bot-example
-Literally as simple as it comes, explains some very basic stuff, fairly self explanatory, just build off of this base.
+# Super simple, barebone discord.py bot to build on.
+Literally as simple as it comes, explains some very basic stuff, fairly self explanatory, just build on this base.
 <br>
 # Usage
 Just add your bot token into the bot_token variable. Bosh.
